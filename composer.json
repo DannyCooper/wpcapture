@@ -1,0 +1,22 @@
+{
+    "name": "dcooper/wordpress-options-page",
+    "autoload": {
+        "psr-4": {
+            "Dcooper\\WordpressOptionsPage\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danny Cooper",
+            "email": "email@dannycooper.com"
+        }
+    ],
+    "require": {
+        "mailchimp/marketing": "^3.0"
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    }
+}
